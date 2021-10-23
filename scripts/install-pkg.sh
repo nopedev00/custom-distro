@@ -24,10 +24,10 @@ echo 'xorg installed'
 apt install kitty -y
 echo 'kitty installed'
 
-mkdir /home/$USERS/.config/bspwm
-mkdir /home/$USERS/.config/sxhkd
+mkdir -p /home/$USERS/.config/bspwm
+mkdir -p /home/$USERS/.config/sxhkd
 
 cp /usr/share/doc/bspwm/examples/bspwmrc /home/$USERS/.config/bspwm/ 
 cp /usr/share/doc/bspwm/examples/sxhkdrc /home/$USERS/.config/sxhkd/
 
-sed -i "s/urxvt/kitty/" /home/$USERS/.cofing/sxhdk/sxhkdrc
+sed -i "s/urxvt/kitty/" /home/$USERS/.config/sxhkd/sxhkdrc
