@@ -24,8 +24,6 @@ echo 'xorg installed'
 apt install kitty -y
 echo 'kitty installed'
 
-su $USERS
-
 mkdir /home/$USERS/.config/bspwm
 mkdir /home/$USERS/.config/sxhkd
 
