@@ -1,0 +1,30 @@
+REMOVING FILE/DIR
+remove "lost+found" dir from /
+remove "vmlinuz.old" from /
+remove "vmlinuz" from /
+remove "initrd.img" from / 
+remove "initrd.img.old" from /
+remove "games" dir from /usr
+
+INSTALLING PACKAGES
+install sudo
+add user to sudo group
+reboot
+
+install neofetch
+install git
+install wget
+install curl
+install bspwm
+
+mkdir ~/.config/bspwm
+mkdir ~/.config/sxhkd
+
+cp /usr/share/doc/bspwm/examples/bspwmrc ~/.config/bspwm/
+cp /usr/share/doc/bspwm/examples/sxhkdrc ~/.config/sxhkd/
+
+install xorg
+install kitty
+
+change terminal emulator to kitty in ~/.config/sxhkd/sxhdkrc (sed -i "s/urxvt/kitty/" ~/.config/sxhkd/sxhkdrc)
+

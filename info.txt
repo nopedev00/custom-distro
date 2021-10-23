@@ -1,0 +1,19 @@
+CUSTOM DISTRO
+
+BASE INFO:
+kernel name: Linux
+kernel release: 5.10.0-90amd64
+kernel version: SMP Debian 5.10.70-1 (2021-09-30)
+operation system: GNU/Linux
+space used: 933mb
+current packages: 247
+
+INSTALLED PACKAGES
+sudo
+neofetch
+git
+wget
+curl
+bspwm
+kitty
+xorg
