@@ -11,8 +11,3 @@ do
 done
 
 echo 'useless file and dir were deleted from root dir'
-
-#for folder in ${USELESS_FOLDER[@]}
-#do
-#  rm -rf $folder
-#done

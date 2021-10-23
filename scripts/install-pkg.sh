@@ -11,10 +11,6 @@ do
   usermod -aG sudo $user
 done
 
-apt install neofetch
-echo 'neofetch installed'
-apt install git
-echo 'git installed'
 apt install wget
 echo 'wget installed'
 apt install curl
