@@ -1,6 +1,6 @@
 #!/bin/bash
 
-apt install sudo
+apt install sudo -y
 echo 'sudo installed'
 
 USERS=$(cat /etc/passwd | grep /home | cut -d ':' -f1)
@@ -11,15 +11,15 @@ do
   usermod -aG sudo $user
 done
 
-apt install wget
+apt install wget -y
 echo 'wget installed'
-apt install curl
+apt install curl -y
 echo 'curl installed'
-apt install bspwm
+apt install bspwm -y
 echo 'bspwm installed'
-apt install xorg
+apt install xorg -y
 echo 'xorg installed'
-apt install kitty
+apt install kitty -y
 echo 'kitty installed'
 
 mkdir ~/.config/bspwm
